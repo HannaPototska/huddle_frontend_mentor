@@ -84,3 +84,57 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (min-width: 992px) {
+
+
+    body {
+        background-image: url(bg-desktop.svg);
+        background-repeat: repeat;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: relative;
+    }
+   
+    .imagecont {
+       
+        padding: 0 5%;
+        height: 80%;
+        width: 60%;
+        
+    }
+
+
+    .imagecont img {
+        width: 100%;
+       
+    }
+
+
+    .text_button {
+        align-items: start;
+        height: 80%;
+        width: 40%;
+       
+    }
+
+    .text_button h2 {
+       
+        text-align: justify;
+    }
+    .text_button p {
+        text-align: justify;
+    }
+
+    .text_button button {
+        padding: 20px;
+        width: 40%;
+        font-size: 18px;
+    }
+    .icons {
+       position: absolute;
+       right: 100px;
+       bottom: 50px;
+    }
+}
