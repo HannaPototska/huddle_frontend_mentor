@@ -18,3 +18,12 @@ body {
     padding: 20px;
     height: 20%;
 }
+
+.imagecont {
+    padding: 10%;
+    height: 40%;
+}
+
+.imagecont img {
+    width: 100%
+}
