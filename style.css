@@ -35,6 +35,11 @@ body {
 .text_button {
     color: white;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
     
 }
 
@@ -49,4 +54,13 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     text-align: center;
+}
+
+.text_button button {
+    padding: 20px;
+    width: 80%;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.477);
+    color: hsl(257, 40%, 49%);
 }
