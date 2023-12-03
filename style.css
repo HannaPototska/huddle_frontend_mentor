@@ -89,6 +89,8 @@ body {
 
 
     body {
+        width: 100vw;
+    height: 100vh;
         background-image: url(bg-desktop.svg);
         background-repeat: repeat;
         display: flex;
